@@ -10,6 +10,7 @@
 </head>
 <body>
     @include('partials/_header')
+    @include('partials/_jumbotron')
     @include('partials/_footer')
 </body>
 </html>
