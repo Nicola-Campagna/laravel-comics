@@ -10,5 +10,6 @@
 </head>
 <body>
     @include('partials/_header')
+    @include('partials/_footer')
 </body>
 </html>
