@@ -11,6 +11,9 @@
 <body>
     @include('partials/_header')
     @include('partials/_jumbotron')
+    <main>
+      @yield('fumetti')
+    </main>
     @include('partials/_footer')
 </body>
 </html>

@@ -15,4 +15,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('app');
-});
+})->name("app");
+
+Route::get('/fumetti',function(){
+$fume=config('comics');
+    return view('partials.fumetti',compact('fume'));
+})->name("fumetti");
